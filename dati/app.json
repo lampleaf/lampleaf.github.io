@@ -1,0 +1,35 @@
+{
+ "nome": "Lampleaf Reader",
+ "nome_breve": "Lampleaf",
+ "nome_precedente": "LumiShelf",
+ "versione": "1.19.4",
+ "codice": 89,
+ "data": "2026-10-17",
+ "pacchetto": "com.lumishelf.ui4",
+ "etichetta": "Lampleaf",
+ "min_sdk": 26,
+ "min_android": "8.0",
+ "target_sdk": 35,
+ "target_android": "15",
+ "apk_nome": "Lampleaf_Reader_1.19.4.apk",
+ "apk_bytes": 71505139,
+ "apk_sha256": "178535430e23682d87cd2136af83e56a1c4a7089aaf8aca282b0ab9ee46b589a",
+ "cert_sha256": "f37149ced02f46fd1f7f4d5430c72627e4857effd72840e1469429cdf8292596",
+ "repo": "lampleaf/lampleaf.github.io",
+ "pagina": "https://lampleaf.github.io/",
+ "collaudo": {
+  "jvm": "294",
+  "android_note": "17",
+  "android_compatto": "17",
+  "data": "2026-10-17"
+ },
+ "indexnow_key": "b006aa77714a2ef7702846eedf09b3c9",
+ "google_verifica": "drTkogs2YOZyGQUc5MdyxNCHYTRlVmG2wbDhQbsnnJY",
+ "google_file": "google0f898eb756c71cd0.html",
+ "vecchio": {
+  "repo": "lumishelf/LumiShelf",
+  "pagina": "https://lumishelf.github.io/LumiShelf/",
+  "radice": "https://lumishelf.github.io/",
+  "indexnow_key": "5575a82dfcdb119bacc0bf6fe568549f"
+ }
+}
