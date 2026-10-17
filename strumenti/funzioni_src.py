@@ -83,7 +83,7 @@ f(A, "Preferenze di lettura", "Valori predefiniti per PDF, EPUB e manga; orienta
 f(A, "Libreria e cartelle", "Metodo di accesso, cartelle autorizzate, ultima scansione e aggiornamento della libreria nello stesso posto.", "1.18.6", "telefono")
 f(A, "Backup e ripristino", "File JSON con indice, progressi, segnalibri, stato, raccolte, serie manga, metadati e preferenze.", "1.18.5", "emulatore", "Non contiene i documenti, le autorizzazioni delle cartelle e le copertine personalizzate.")
 f(A, "Pagina del progetto e aggiornamenti", "Impostazioni › Informazioni: apre questa pagina e controlla, quando lo chiedi, se su GitHub c'è una versione più recente.", "1.19.3", "emulatore")
-f(A, "Nuovo nome Lampleaf Reader", "Icona «Lampleaf», titoli e testi dell'interfaccia con il nuovo nome; Informazioni ricorda il nome precedente. Si aggiorna sopra LumiShelf senza perdere dati.", "1.19.4", "emulatore", "Alcuni testi degli editor e dello scambio sulla rete locale dicono ancora LumiShelf.")
+f(A, "Nuovo nome Lampleaf Reader", "Nome e icona «Lampleaf», titoli e testi con il nuovo nome anche negli editor, nelle notifiche e nello scambio sulla rete locale; Informazioni ricorda il nome precedente. Si aggiorna sopra LumiShelf senza perdere dati.", "1.19.4", "emulatore", "Icona e testi degli editor dalla 1.19.5.")
 f(A, "Telefoni piccoli e testo grande", "Interfaccia collaudata da 360 dp di larghezza, con testo al 150% e in orizzontale.", "1.18.6", "emulatore")
 
 A = "Più avanti"

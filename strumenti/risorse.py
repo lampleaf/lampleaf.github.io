@@ -1,4 +1,4 @@
-"""Crea le risorse per motori di ricerca e condivisione: icone (PNG, ICO) e immagine di anteprima 1200x630.
+"""Crea le risorse per motori di ricerca e condivisione: icone (PNG, ICO, dall'icona dell'app) e immagine di anteprima 1200x630.
 
 Uso: python strumenti/risorse.py   (richiede Playwright con Chromium e Pillow)
 Scrive in docs/img/ e nella radice del sito (docs/ = lampleaf.github.io): favicon.ico e apple-touch-icon.png.
@@ -41,15 +41,18 @@ async def main():
     tmp.write_text(SCHEDA % {"docs": str(DOCS)}, encoding="utf-8")
     async with async_playwright() as p:
         b = await p.chromium.launch()
-        pg = await b.new_page(viewport={"width": 512, "height": 512})
-        await pg.set_content("<html><body style='margin:0;background:transparent'>" + ICONA + "</body></html>")
-        png = await pg.locator("svg").screenshot(omit_background=True)
         pg2 = await b.new_page(viewport={"width": 1200, "height": 630})
         await pg2.goto("file://" + str(tmp)); await pg2.wait_for_timeout(800)
         await pg2.screenshot(path=str(DOCS / "img" / "anteprima.png"))
         await b.close()
     tmp.unlink()
-    big = Image.open(io.BytesIO(png)).convert("RGBA")
+    # Icone del sito = icona dell'app (dalla 1.19.5): primo piano adattivo su sfondo #080D17, parte visibile sul telefono (72 dp centrali).
+    from PIL import ImageDraw
+    fg = Image.open(ROOT / "strumenti" / "icona_app_primo_piano.png").convert("RGBA")
+    tile = Image.new("RGBA", fg.size, (8, 13, 23, 255)); tile.alpha_composite(fg)
+    vis = tile.crop((72, 72, 360, 360))
+    mask = Image.new("L", vis.size, 0); ImageDraw.Draw(mask).rounded_rectangle((0, 0, vis.width - 1, vis.height - 1), radius=64, fill=255)
+    big = Image.new("RGBA", vis.size, (0, 0, 0, 0)); big.paste(vis, (0, 0), mask)
     for size, name in [(192, "icona-192.png"), (48, "icona-48.png"), (180, "apple-touch-icon.png")]:
         im = big.resize((size, size), Image.LANCZOS)
         if name == "apple-touch-icon.png":  # iOS vuole un'icona piena, senza trasparenza

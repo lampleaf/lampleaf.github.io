@@ -1,16 +1,15 @@
-## LumiShelf ora si chiama Lampleaf Reader
+## Il nome Lampleaf anche nell'icona e negli editor
 
-- Nuovo nome: sul telefono l'icona si chiama «Lampleaf», nei titoli «Lampleaf Reader». Il nome LumiShelf era già usato da altri prodotti.
-- Si installa sopra la 1.19.3 come aggiornamento: libreria, progressi, raccolte e cartelle autorizzate restano.
-- Pagina del progetto e controllo aggiornamenti passano a lampleaf.github.io; i vecchi indirizzi rimandano qui.
-- Alcuni testi degli editor e dello scambio sulla rete locale mostrano ancora il vecchio nome.
+- Nuova icona: la stessa illustrazione, con la scritta «Lampleaf».
+- Editor PDF, Word e fogli di calcolo, rapporti di errore, notifiche e scambio sulla rete locale ora dicono Lampleaf.
+- Restano uguali, apposta, il pacchetto Android e il protocollo della rete locale: l'aggiornamento conserva dati e dispositivi già collegati.
 
 ### Installazione
-Scarica `Lampleaf_Reader_1.19.4.apk` dal telefono, aprilo e tocca **Installa** o **Aggiorna**: libreria, progressi e raccolte restano.
+Scarica `Lampleaf_Reader_1.19.5.apk` dal telefono, aprilo e tocca **Installa** o **Aggiorna**: libreria, progressi e raccolte restano.
 Sul telefono l'app si chiama «Lampleaf» (pacchetto `com.lumishelf.ui4`, lo stesso di LumiShelf). Android 8.0 o successivo.
 
 ### Verifica
-- SHA-256 dell'APK: `178535430e23682d87cd2136af83e56a1c4a7089aaf8aca282b0ab9ee46b589a`
+- SHA-256 dell'APK: `d969e71a8a335fc530babdeefd49e8a4108430a724b7ad6a53afaf1fd778a466`
 - SHA-256 del certificato: `f37149ced02f46fd1f7f4d5430c72627e4857effd72840e1469429cdf8292596`
 
 Funzioni e stato di ogni funzione: https://lampleaf.github.io/

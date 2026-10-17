@@ -1,5 +1,10 @@
 # Storico delle versioni pubblicate (genera dati/versioni.json). La prima è la più recente.
 V = [
+ dict(versione="1.19.5", codice=90, data="2026-10-17", titolo="Il nome Lampleaf anche nell'icona e negli editor", punti=[
+   "Nuova icona: la stessa illustrazione, con la scritta «Lampleaf».",
+   "Editor PDF, Word e fogli di calcolo, rapporti di errore, notifiche e scambio sulla rete locale ora dicono Lampleaf.",
+   "Restano uguali, apposta, il pacchetto Android e il protocollo della rete locale: l'aggiornamento conserva dati e dispositivi già collegati.",
+ ]),
  dict(versione="1.19.4", codice=89, data="2026-10-17", titolo="LumiShelf ora si chiama Lampleaf Reader", punti=[
    "Nuovo nome: sul telefono l'icona si chiama «Lampleaf», nei titoli «Lampleaf Reader». Il nome LumiShelf era già usato da altri prodotti.",
    "Si installa sopra la 1.19.3 come aggiornamento: libreria, progressi, raccolte e cartelle autorizzate restano.",

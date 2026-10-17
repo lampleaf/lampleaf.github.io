@@ -504,10 +504,10 @@
   {
    "area": "Impostazioni e dati",
    "nome": "Nuovo nome Lampleaf Reader",
-   "descrizione": "Icona «Lampleaf», titoli e testi dell'interfaccia con il nuovo nome; Informazioni ricorda il nome precedente. Si aggiorna sopra LumiShelf senza perdere dati.",
+   "descrizione": "Nome e icona «Lampleaf», titoli e testi con il nuovo nome anche negli editor, nelle notifiche e nello scambio sulla rete locale; Informazioni ricorda il nome precedente. Si aggiorna sopra LumiShelf senza perdere dati.",
    "dal": "1.19.4",
    "stato": "emulatore",
-   "nota": "Alcuni testi degli editor e dello scambio sulla rete locale dicono ancora LumiShelf."
+   "nota": "Icona e testi degli editor dalla 1.19.5."
   },
   {
    "area": "Impostazioni e dati",
