@@ -432,10 +432,10 @@
   {
    "area": "Strumenti",
    "nome": "Smart Library",
-   "descrizione": "Analisi su richiesta di copertine e metadati mancanti, duplicati verificati sull'intero contenuto, raccolte per categoria.",
+   "descrizione": "Analisi su richiesta con risultati salvati: file senza copertina, duplicati confrontati byte per byte, documenti senza autore o categoria. Crea le copertine dai file, compila i dati scritti nei PDF ed EPUB, elimina le copie scelte (preferiti, progressi e raccolte passano alla copia tenuta), crea raccolte per categoria.",
    "dal": "1.18.5",
-   "stato": "limiti",
-   "nota": "Assistente locale: niente ricerca di dati online. La rifinitura grafica è in programma."
+   "stato": "emulatore",
+   "nota": "Rifatta nella 1.19.7 sul mockup 21. Tutto resta sul telefono: niente ricerca di dati online."
   },
   {
    "area": "Strumenti",
@@ -519,7 +519,7 @@
   },
   {
    "area": "Più avanti",
-   "nome": "Rifinitura di Smart Library, DICOM e rete locale",
+   "nome": "Rifinitura di DICOM e rete locale",
    "descrizione": "Schermate allineate al resto dell'app.",
    "dal": "",
    "stato": "programma",

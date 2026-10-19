@@ -35,6 +35,8 @@ GRUPPI = [
    ("22_informazioni_github", "Informazioni e aggiornamenti"),
    ("22b_aggiornamento_disponibile", "Nuova versione disponibile"),
    ("route_advanced", "Avanzate"),
+   ("24_smart_library", "Smart Library"),
+   ("24b_smart_duplicati", "Smart Library: duplicati"),
    ("route_appearance_light", "Tema chiaro"),
  ]),
 ]

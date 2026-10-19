@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://lampleaf.github.io/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <image:image><image:loc>https://lampleaf.github.io/img/01_benvenuto.webp</image:loc></image:image>
     <image:image><image:loc>https://lampleaf.github.io/img/01c_lettori.webp</image:loc></image:image>
     <image:image><image:loc>https://lampleaf.github.io/img/02_accesso.webp</image:loc></image:image>
@@ -29,6 +29,8 @@
     <image:image><image:loc>https://lampleaf.github.io/img/22_informazioni_github.webp</image:loc></image:image>
     <image:image><image:loc>https://lampleaf.github.io/img/22b_aggiornamento_disponibile.webp</image:loc></image:image>
     <image:image><image:loc>https://lampleaf.github.io/img/route_advanced.webp</image:loc></image:image>
+    <image:image><image:loc>https://lampleaf.github.io/img/24_smart_library.webp</image:loc></image:image>
+    <image:image><image:loc>https://lampleaf.github.io/img/24b_smart_duplicati.webp</image:loc></image:image>
     <image:image><image:loc>https://lampleaf.github.io/img/route_appearance_light.webp</image:loc></image:image>
   </url>
 </urlset>

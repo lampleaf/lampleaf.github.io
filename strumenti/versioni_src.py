@@ -1,5 +1,11 @@
 # Storico delle versioni pubblicate (genera dati/versioni.json). La prima è la più recente.
 V = [
+ dict(versione="1.19.7", codice=92, data="2026-10-19", titolo="Smart Library rinnovata", punti=[
+   "Avanzate › Smart Library: analisi della libreria con l'avanzamento, risultati salvati con la data e quattro riquadri (senza copertina, duplicati, senza autore, senza categoria).",
+   "Copertine mancanti create dai file in sottofondo; «Compila dai file» riempie i dati vuoti con quanto è scritto nei PDF ed EPUB.",
+   "Duplicati: scegli la copia da tenere e vedi lo spazio che liberi; le altre si eliminano dopo una conferma e preferiti, progressi e raccolte passano alla copia tenuta.",
+   "Organizza per categoria mostra prima le raccolte che nasceranno.",
+ ]),
  dict(versione="1.19.6", codice=91, data="2026-10-17", titolo="Sposta in…", punti=[
    "Nuova azione del file «Sposta in…»: scegli la cartella navigando, anche creandone una nuova, e tocca «Sposta qui».",
    "Funziona anche con più file selezionati nella Libreria.",
