@@ -14,6 +14,7 @@ GRUPPI = [
    ("08b_azioni_file", "Azioni del file"),
    ("20_modifica_metadati", "Modifica metadati"),
    ("20b_cambia_copertina", "Cambia copertina"),
+   ("21b_sposta_in", "Sposta in…"),
  ]),
  ("Lettori", [
    ("09_pdf_reale_pagina6", "PDF"),

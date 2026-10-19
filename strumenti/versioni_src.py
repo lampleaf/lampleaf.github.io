@@ -1,5 +1,10 @@
 # Storico delle versioni pubblicate (genera dati/versioni.json). La prima è la più recente.
 V = [
+ dict(versione="1.19.6", codice=91, data="2026-10-17", titolo="Sposta in…", punti=[
+   "Nuova azione del file «Sposta in…»: scegli la cartella navigando, anche creandone una nuova, e tocca «Sposta qui».",
+   "Funziona anche con più file selezionati nella Libreria.",
+   "Progressi, segnalibri, raccolte, copertina e metadati restano legati al documento; se il nome è già usato nella cartella di arrivo diventa «nome (2)».",
+ ]),
  dict(versione="1.19.5", codice=90, data="2026-10-17", titolo="Il nome Lampleaf anche nell'icona e negli editor", punti=[
    "Nuova icona: la stessa illustrazione, con la scritta «Lampleaf».",
    "Editor PDF, Word e fogli di calcolo, rapporti di errore, notifiche e scambio sulla rete locale ora dicono Lampleaf.",

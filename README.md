@@ -6,7 +6,7 @@ Libreria e lettore di documenti per Android: PDF, EPUB, manga e fumetti, documen
 
 Fino alla versione 1.19.3 si chiamava **LumiShelf**: chi l'ha installata può aggiornare direttamente, i dati restano.
 
-**[Scarica la 1.19.5](https://github.com/lampleaf/lampleaf.github.io/releases/download/v1.19.5/Lampleaf_Reader_1.19.5.apk)** (APK, 68 MB, Android 8.0 o successivo) · [Pagina del progetto](https://lampleaf.github.io/) · [Tutte le versioni](https://github.com/lampleaf/lampleaf.github.io/releases)
+**[Scarica la 1.19.6](https://github.com/lampleaf/lampleaf.github.io/releases/download/v1.19.6/Lampleaf_Reader_1.19.6.apk)** (APK, 68 MB, Android 8.0 o successivo) · [Pagina del progetto](https://lampleaf.github.io/) · [Tutte le versioni](https://github.com/lampleaf/lampleaf.github.io/releases)
 
 ## Stato delle funzioni
 
@@ -15,14 +15,14 @@ Fino alla versione 1.19.3 si chiamava **LumiShelf**: chi l'ha installata può ag
 | Stato | Funzioni | Significato |
 | --- | ---: | --- |
 | 📱 Provata sul telefono | 14 | Funziona nell'uso reale su Samsung Galaxy Note 10 Plus (riscontro sulla 1.18.6). |
-| 🧪 Collaudata su emulatore | 29 | Test automatici superati su due emulatori (tipo Note 10 Plus e telefono compatto); manca la prova sul telefono. |
+| 🧪 Collaudata su emulatore | 30 | Test automatici superati su due emulatori (tipo Note 10 Plus e telefono compatto); manca la prova sul telefono. |
 | 📦 Presente, da ricollaudare | 7 | Funzione già presente nelle versioni precedenti e mantenuta; non ancora ricollaudata nelle versioni recenti. |
 | ⚠️ Disponibile con limiti | 6 | Utilizzabile, con limiti scritti nella descrizione. |
-| 🗓️ In programma | 5 | Prevista nei prossimi lavori. |
+| 🗓️ In programma | 4 | Prevista nei prossimi lavori. |
 | ⏸️ Rinviata | 1 | Rimandata per scelta. |
 | 💭 Da decidere | 6 | Idea possibile, non ancora approvata. |
 
-Collaudo della 1.19.5 (17 ottobre 2026): 294 test sul codice; 18 test Android su emulatore tipo Note 10 Plus e 18 su telefono compatto da 360 dp.
+Collaudo della 1.19.6 (17 ottobre 2026): 299 test sul codice; 19 test Android su emulatore tipo Note 10 Plus e 19 su telefono compatto da 360 dp.
 
 ### Avvio e accessi
 
@@ -65,7 +65,7 @@ Collaudo della 1.19.5 (17 ottobre 2026): 294 test sul codice; 18 test Android su
 | **Condividi ed esporta una copia** | 🧪 Collaudata su emulatore | 1.19.1 | Condivisione con un link temporaneo in sola lettura, invio a un dispositivo sulla rete locale, copia in una cartella a scelta. |
 | **Nascondi, rimuovi, elimina** | 📱 Provata sul telefono | 1.18.6 | Tre azioni distinte con la conseguenza scritta accanto; l'eliminazione del file chiede conferma. |
 | **Scegli il lettore** | 🧪 Collaudata su emulatore | 1.18.5 | Per i formati che più lettori sanno aprire (per esempio un PDF come manga), la scelta resta per quel documento. |
-| **Sposta in…** | 🗓️ In programma | — | Spostare un file in un'altra cartella conservando i suoi dati. *Serve la scelta della cartella di destinazione e la copia tra provider diversi.* |
+| **Sposta in…** | 🧪 Collaudata su emulatore | 1.19.6 | Sposta uno o più file in un'altra cartella scelta navigando tra le cartelle autorizzate (o tutta la memoria con l'accesso totale), con «Nuova cartella»: progressi, segnalibri, raccolte, copertina e metadati restano. Se il nome è già usato aggiunge (2). *Tra memorie diverse copia e poi elimina l'originale solo a copia verificata.* |
 
 ### Raccolte e manga
 
@@ -154,7 +154,7 @@ Collaudo della 1.19.5 (17 ottobre 2026): 294 test sul codice; 18 test Android su
 
 ## Installazione
 
-1. Dal telefono scarica `Lampleaf_Reader_1.19.5.apk` dalla [pagina della versione](https://github.com/lampleaf/lampleaf.github.io/releases/tag/v1.19.5).
+1. Dal telefono scarica `Lampleaf_Reader_1.19.6.apk` dalla [pagina della versione](https://github.com/lampleaf/lampleaf.github.io/releases/tag/v1.19.6).
 2. Apri il file dalle notifiche o da Download. La prima volta Android chiede di consentire l'installazione di app dal browser: consenti solo per questa occasione, se preferisci.
 3. Tocca **Installa** (o **Aggiorna** se hai già Lampleaf o LumiShelf). Una versione nuova si installa sopra la precedente: libreria, progressi e raccolte restano.
 4. Per le versioni successive: in Lampleaf apri **Impostazioni › Informazioni › Controlla aggiornamenti**.
@@ -163,14 +163,14 @@ Sul telefono l'app si chiama «Lampleaf». Il pacchetto resta `com.lumishelf.ui4
 
 Verifica facoltativa del file:
 
-- SHA-256 dell'APK: `d969e71a8a335fc530babdeefd49e8a4108430a724b7ad6a53afaf1fd778a466`
+- SHA-256 dell'APK: `1aa728a874ea3dfe470a8bc44b40e609c75db367a0caf786f307bca25c5adf9c`
 - SHA-256 del certificato di firma: `f37149ced02f46fd1f7f4d5430c72627e4857effd72840e1469429cdf8292596`
 
 ## Dati dell'app
 
 | | |
 | --- | --- |
-| Versione | 1.19.5 (codice 90), pubblicata il 17 ottobre 2026 |
+| Versione | 1.19.6 (codice 91), pubblicata il 17 ottobre 2026 |
 | Android | da 8.0 (API 26), compilata per Android 15 (API 35) |
 | Lingua | Italiano |
 | Formati | PDF, EPUB, CBZ, CBR, CB7, ZIP, RAR, 7Z, JPG, PNG, WebP, BMP, DOCX, XLS, XLSX, XLSM, XLTX, XLTM, TXT, LOG, XML, JSON, CSV, Markdown, HTML, YAML, INI, Properties, DICOM; DOC, ODT e RTF con un'app esterna |
@@ -179,6 +179,14 @@ Verifica facoltativa del file:
 | Codice sorgente | Non pubblicato in questo repository |
 
 ## Versioni
+
+### 1.19.6 · 17 ottobre 2026
+
+**Sposta in…**
+
+- Nuova azione del file «Sposta in…»: scegli la cartella navigando, anche creandone una nuova, e tocca «Sposta qui».
+- Funziona anche con più file selezionati nella Libreria.
+- Progressi, segnalibri, raccolte, copertina e metadati restano legati al documento; se il nome è già usato nella cartella di arrivo diventa «nome (2)».
 
 ### 1.19.5 · 17 ottobre 2026
 

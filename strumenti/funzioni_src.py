@@ -33,7 +33,7 @@ f(A, "Rinomina", "Cambia il nome del file nella sua cartella: progressi, segnali
 f(A, "Condividi ed esporta una copia", "Condivisione con un link temporaneo in sola lettura, invio a un dispositivo sulla rete locale, copia in una cartella a scelta.", "1.19.1", "emulatore")
 f(A, "Nascondi, rimuovi, elimina", "Tre azioni distinte con la conseguenza scritta accanto; l'eliminazione del file chiede conferma.", "1.18.6", "telefono")
 f(A, "Scegli il lettore", "Per i formati che più lettori sanno aprire (per esempio un PDF come manga), la scelta resta per quel documento.", "1.18.5", "emulatore")
-f(A, "Sposta in…", "Spostare un file in un'altra cartella conservando i suoi dati.", "", "programma", "Serve la scelta della cartella di destinazione e la copia tra provider diversi.")
+f(A, "Sposta in…", "Sposta uno o più file in un'altra cartella scelta navigando tra le cartelle autorizzate (o tutta la memoria con l'accesso totale), con «Nuova cartella»: progressi, segnalibri, raccolte, copertina e metadati restano. Se il nome è già usato aggiunge (2).", "1.19.6", "emulatore", "Tra memorie diverse copia e poi elimina l'originale solo a copia verificata.")
 
 A = "Raccolte e manga"
 f(A, "Raccolte e serie", "Raccolte manuali e serie automatiche, con descrizione, icona, colore e scelta di mostrarle in Home.", "1.18.6", "telefono")

@@ -216,10 +216,10 @@
   {
    "area": "Documento",
    "nome": "Sposta in…",
-   "descrizione": "Spostare un file in un'altra cartella conservando i suoi dati.",
-   "dal": "",
-   "stato": "programma",
-   "nota": "Serve la scelta della cartella di destinazione e la copia tra provider diversi."
+   "descrizione": "Sposta uno o più file in un'altra cartella scelta navigando tra le cartelle autorizzate (o tutta la memoria con l'accesso totale), con «Nuova cartella»: progressi, segnalibri, raccolte, copertina e metadati restano. Se il nome è già usato aggiunge (2).",
+   "dal": "1.19.6",
+   "stato": "emulatore",
+   "nota": "Tra memorie diverse copia e poi elimina l'originale solo a copia verificata."
   },
   {
    "area": "Raccolte e manga",

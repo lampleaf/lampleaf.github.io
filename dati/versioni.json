@@ -1,5 +1,16 @@
 [
  {
+  "versione": "1.19.6",
+  "codice": 91,
+  "data": "2026-10-17",
+  "titolo": "Sposta in…",
+  "punti": [
+   "Nuova azione del file «Sposta in…»: scegli la cartella navigando, anche creandone una nuova, e tocca «Sposta qui».",
+   "Funziona anche con più file selezionati nella Libreria.",
+   "Progressi, segnalibri, raccolte, copertina e metadati restano legati al documento; se il nome è già usato nella cartella di arrivo diventa «nome (2)»."
+  ]
+ },
+ {
   "versione": "1.19.5",
   "codice": 90,
   "data": "2026-10-17",
