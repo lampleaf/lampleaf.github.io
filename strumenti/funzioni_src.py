@@ -73,7 +73,7 @@ f(A, "Nuova interfaccia degli editor", "Comandi contestuali, annulla/ripristina,
 
 A = "Strumenti"
 f(A, "Smart Library", "Analisi su richiesta con risultati salvati: file senza copertina, duplicati confrontati byte per byte, documenti senza autore o categoria. Crea le copertine dai file, compila i dati scritti nei PDF ed EPUB, elimina le copie scelte (preferiti, progressi e raccolte passano alla copia tenuta), crea raccolte per categoria.", "1.18.5", "emulatore", "Rifatta nella 1.19.7 sul mockup 21. Tutto resta sul telefono: niente ricerca di dati online.")
-f(A, "DICOM", "Esami e serie, frame, finestra e inversione, esportazione PNG, informazioni, modalità privacy, report anonimo, apertura esterna. Uso non diagnostico.", "1.18.5", "limiti", "Alcune compressioni richiedono un visualizzatore esterno.")
+f(A, "DICOM", "Sezione con esami per cartella e miniature; modalità privacy in vista (cartelle e file diventano «Esame N» e «Immagine N», catture dello schermo bloccate). Visualizzatore con Regola (luminosità, contrasto, inversione), Informazioni in parole, salvataggio PNG, apertura con un'altra app, report tecnico anonimo. Uso non diagnostico.", "1.18.5", "limiti", "Rinnovata nella 1.19.8. Alcune compressioni richiedono un visualizzatore esterno.")
 f(A, "Sincronizza dispositivi", "Rete locale tra telefoni Android e client Windows: abbinamento con codice di sei cifre, trasferimenti cifrati, confronto della libreria e dei progressi.", "1.18.2", "ereditata", "Da collaudare tra due dispositivi reali.")
 f(A, "Diagnostica e memoria", "Spazio usato da cache e copertine, svuotamento, report tecnici da condividere.", "1.18.5", "ereditata")
 
@@ -87,7 +87,7 @@ f(A, "Nuovo nome Lampleaf Reader", "Nome e icona «Lampleaf», titoli e testi co
 f(A, "Telefoni piccoli e testo grande", "Interfaccia collaudata da 360 dp di larghezza, con testo al 150% e in orizzontale.", "1.18.6", "emulatore")
 
 A = "Più avanti"
-f(A, "Rifinitura di DICOM e rete locale", "Schermate allineate al resto dell'app.", "", "programma")
+f(A, "Rifinitura della rete locale", "Schermata di Sincronizza dispositivi allineata al resto dell'app.", "", "programma")
 f(A, "Schermi larghi negli editor e negli strumenti", "Pannelli affiancati come nella Libreria.", "", "programma")
 f(A, "Misure di velocità sul telefono e pulizia del codice", "Avvio, cataloghi grandi, PDF pesanti, memoria; poi riordino del codice.", "", "programma")
 f(A, "Gattino animato nel caricamento", "Un'animazione durante il primo caricamento dei file.", "", "rinviata")

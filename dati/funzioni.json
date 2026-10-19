@@ -440,10 +440,10 @@
   {
    "area": "Strumenti",
    "nome": "DICOM",
-   "descrizione": "Esami e serie, frame, finestra e inversione, esportazione PNG, informazioni, modalità privacy, report anonimo, apertura esterna. Uso non diagnostico.",
+   "descrizione": "Sezione con esami per cartella e miniature; modalità privacy in vista (cartelle e file diventano «Esame N» e «Immagine N», catture dello schermo bloccate). Visualizzatore con Regola (luminosità, contrasto, inversione), Informazioni in parole, salvataggio PNG, apertura con un'altra app, report tecnico anonimo. Uso non diagnostico.",
    "dal": "1.18.5",
    "stato": "limiti",
-   "nota": "Alcune compressioni richiedono un visualizzatore esterno."
+   "nota": "Rinnovata nella 1.19.8. Alcune compressioni richiedono un visualizzatore esterno."
   },
   {
    "area": "Strumenti",
@@ -519,8 +519,8 @@
   },
   {
    "area": "Più avanti",
-   "nome": "Rifinitura di DICOM e rete locale",
-   "descrizione": "Schermate allineate al resto dell'app.",
+   "nome": "Rifinitura della rete locale",
+   "descrizione": "Schermata di Sincronizza dispositivi allineata al resto dell'app.",
    "dal": "",
    "stato": "programma",
    "nota": ""

@@ -1,5 +1,10 @@
 # Storico delle versioni pubblicate (genera dati/versioni.json). La prima è la più recente.
 V = [
+ dict(versione="1.19.8", codice=93, data="2026-10-19", titolo="DICOM rinnovato", punti=[
+   "Avanzate › DICOM: esami per cartella, miniature e modalità privacy sempre in vista; con la privacy cartelle e file diventano «Esame N» e «Immagine N».",
+   "Visualizzatore con la barra degli altri lettori: Regola (luminosità, contrasto, inversione), Informazioni in parole, Privacy, Altro (PNG, altra app, report anonimo).",
+   "La modalità d'esame è letta dal suo campo nel file: prima poteva risultare «ecografia» per errore.",
+ ]),
  dict(versione="1.19.7", codice=92, data="2026-10-19", titolo="Smart Library rinnovata", punti=[
    "Avanzate › Smart Library: analisi della libreria con l'avanzamento, risultati salvati con la data e quattro riquadri (senza copertina, duplicati, senza autore, senza categoria).",
    "Copertine mancanti create dai file in sottofondo; «Compila dai file» riempie i dati vuoti con quanto è scritto nei PDF ed EPUB.",

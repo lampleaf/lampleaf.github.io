@@ -6,7 +6,7 @@ Libreria e lettore di documenti per Android: PDF, EPUB, manga e fumetti, documen
 
 Fino alla versione 1.19.3 si chiamava **LumiShelf**: chi l'ha installata può aggiornare direttamente, i dati restano.
 
-**[Scarica la 1.19.7](https://github.com/lampleaf/lampleaf.github.io/releases/download/v1.19.7/Lampleaf_Reader_1.19.7.apk)** (APK, 68 MB, Android 8.0 o successivo) · [Pagina del progetto](https://lampleaf.github.io/) · [Tutte le versioni](https://github.com/lampleaf/lampleaf.github.io/releases)
+**[Scarica la 1.19.8](https://github.com/lampleaf/lampleaf.github.io/releases/download/v1.19.8/Lampleaf_Reader_1.19.8.apk)** (APK, 68 MB, Android 8.0 o successivo) · [Pagina del progetto](https://lampleaf.github.io/) · [Tutte le versioni](https://github.com/lampleaf/lampleaf.github.io/releases)
 
 ## Stato delle funzioni
 
@@ -22,7 +22,7 @@ Fino alla versione 1.19.3 si chiamava **LumiShelf**: chi l'ha installata può ag
 | ⏸️ Rinviata | 1 | Rimandata per scelta. |
 | 💭 Da decidere | 6 | Idea possibile, non ancora approvata. |
 
-Collaudo della 1.19.7 (19 ottobre 2026): 305 test sul codice; 20 test Android su emulatore tipo Note 10 Plus e 20 su telefono compatto da 360 dp.
+Collaudo della 1.19.8 (19 ottobre 2026): 310 test sul codice; 21 test Android su emulatore tipo Note 10 Plus e 21 su telefono compatto da 360 dp.
 
 ### Avvio e accessi
 
@@ -123,7 +123,7 @@ Collaudo della 1.19.7 (19 ottobre 2026): 305 test sul codice; 20 test Android su
 | Funzione | Stato | Dalla | Descrizione |
 | --- | --- | --- | --- |
 | **Smart Library** | 🧪 Collaudata su emulatore | 1.18.5 | Analisi su richiesta con risultati salvati: file senza copertina, duplicati confrontati byte per byte, documenti senza autore o categoria. Crea le copertine dai file, compila i dati scritti nei PDF ed EPUB, elimina le copie scelte (preferiti, progressi e raccolte passano alla copia tenuta), crea raccolte per categoria. *Rifatta nella 1.19.7 sul mockup 21. Tutto resta sul telefono: niente ricerca di dati online.* |
-| **DICOM** | ⚠️ Disponibile con limiti | 1.18.5 | Esami e serie, frame, finestra e inversione, esportazione PNG, informazioni, modalità privacy, report anonimo, apertura esterna. Uso non diagnostico. *Alcune compressioni richiedono un visualizzatore esterno.* |
+| **DICOM** | ⚠️ Disponibile con limiti | 1.18.5 | Sezione con esami per cartella e miniature; modalità privacy in vista (cartelle e file diventano «Esame N» e «Immagine N», catture dello schermo bloccate). Visualizzatore con Regola (luminosità, contrasto, inversione), Informazioni in parole, salvataggio PNG, apertura con un'altra app, report tecnico anonimo. Uso non diagnostico. *Rinnovata nella 1.19.8. Alcune compressioni richiedono un visualizzatore esterno.* |
 | **Sincronizza dispositivi** | 📦 Presente, da ricollaudare | 1.18.2 | Rete locale tra telefoni Android e client Windows: abbinamento con codice di sei cifre, trasferimenti cifrati, confronto della libreria e dei progressi. *Da collaudare tra due dispositivi reali.* |
 | **Diagnostica e memoria** | 📦 Presente, da ricollaudare | 1.18.5 | Spazio usato da cache e copertine, svuotamento, report tecnici da condividere. |
 
@@ -143,7 +143,7 @@ Collaudo della 1.19.7 (19 ottobre 2026): 305 test sul codice; 20 test Android su
 
 | Funzione | Stato | Dalla | Descrizione |
 | --- | --- | --- | --- |
-| **Rifinitura di DICOM e rete locale** | 🗓️ In programma | — | Schermate allineate al resto dell'app. |
+| **Rifinitura della rete locale** | 🗓️ In programma | — | Schermata di Sincronizza dispositivi allineata al resto dell'app. |
 | **Schermi larghi negli editor e negli strumenti** | 🗓️ In programma | — | Pannelli affiancati come nella Libreria. |
 | **Misure di velocità sul telefono e pulizia del codice** | 🗓️ In programma | — | Avvio, cataloghi grandi, PDF pesanti, memoria; poi riordino del codice. |
 | **Gattino animato nel caricamento** | ⏸️ Rinviata | — | Un'animazione durante il primo caricamento dei file. |
@@ -154,7 +154,7 @@ Collaudo della 1.19.7 (19 ottobre 2026): 305 test sul codice; 20 test Android su
 
 ## Installazione
 
-1. Dal telefono scarica `Lampleaf_Reader_1.19.7.apk` dalla [pagina della versione](https://github.com/lampleaf/lampleaf.github.io/releases/tag/v1.19.7).
+1. Dal telefono scarica `Lampleaf_Reader_1.19.8.apk` dalla [pagina della versione](https://github.com/lampleaf/lampleaf.github.io/releases/tag/v1.19.8).
 2. Apri il file dalle notifiche o da Download. La prima volta Android chiede di consentire l'installazione di app dal browser: consenti solo per questa occasione, se preferisci.
 3. Tocca **Installa** (o **Aggiorna** se hai già Lampleaf o LumiShelf). Una versione nuova si installa sopra la precedente: libreria, progressi e raccolte restano.
 4. Per le versioni successive: in Lampleaf apri **Impostazioni › Informazioni › Controlla aggiornamenti**.
@@ -163,14 +163,14 @@ Sul telefono l'app si chiama «Lampleaf». Il pacchetto resta `com.lumishelf.ui4
 
 Verifica facoltativa del file:
 
-- SHA-256 dell'APK: `5fd23dfbd1d236ab39d69e9fceef7616af62fe60744f4d268c76df0dbc174743`
+- SHA-256 dell'APK: `f54d69a6a7f4b1704e03aa323f2054444348f806bced6170cbdf8d1c46afd5b6`
 - SHA-256 del certificato di firma: `f37149ced02f46fd1f7f4d5430c72627e4857effd72840e1469429cdf8292596`
 
 ## Dati dell'app
 
 | | |
 | --- | --- |
-| Versione | 1.19.7 (codice 92), pubblicata il 19 ottobre 2026 |
+| Versione | 1.19.8 (codice 93), pubblicata il 19 ottobre 2026 |
 | Android | da 8.0 (API 26), compilata per Android 15 (API 35) |
 | Lingua | Italiano |
 | Formati | PDF, EPUB, CBZ, CBR, CB7, ZIP, RAR, 7Z, JPG, PNG, WebP, BMP, DOCX, XLS, XLSX, XLSM, XLTX, XLTM, TXT, LOG, XML, JSON, CSV, Markdown, HTML, YAML, INI, Properties, DICOM; DOC, ODT e RTF con un'app esterna |
@@ -179,6 +179,14 @@ Verifica facoltativa del file:
 | Codice sorgente | Non pubblicato in questo repository |
 
 ## Versioni
+
+### 1.19.8 · 19 ottobre 2026
+
+**DICOM rinnovato**
+
+- Avanzate › DICOM: esami per cartella, miniature e modalità privacy sempre in vista; con la privacy cartelle e file diventano «Esame N» e «Immagine N».
+- Visualizzatore con la barra degli altri lettori: Regola (luminosità, contrasto, inversione), Informazioni in parole, Privacy, Altro (PNG, altra app, report anonimo).
+- La modalità d'esame è letta dal suo campo nel file: prima poteva risultare «ecografia» per errore.
 
 ### 1.19.7 · 19 ottobre 2026
 

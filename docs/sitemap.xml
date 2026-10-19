@@ -31,6 +31,8 @@
     <image:image><image:loc>https://lampleaf.github.io/img/route_advanced.webp</image:loc></image:image>
     <image:image><image:loc>https://lampleaf.github.io/img/24_smart_library.webp</image:loc></image:image>
     <image:image><image:loc>https://lampleaf.github.io/img/24b_smart_duplicati.webp</image:loc></image:image>
+    <image:image><image:loc>https://lampleaf.github.io/img/25_dicom.webp</image:loc></image:image>
+    <image:image><image:loc>https://lampleaf.github.io/img/25b_dicom_visore.webp</image:loc></image:image>
     <image:image><image:loc>https://lampleaf.github.io/img/route_appearance_light.webp</image:loc></image:image>
   </url>
 </urlset>

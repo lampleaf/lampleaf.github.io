@@ -37,6 +37,8 @@ GRUPPI = [
    ("route_advanced", "Avanzate"),
    ("24_smart_library", "Smart Library"),
    ("24b_smart_duplicati", "Smart Library: duplicati"),
+   ("25_dicom", "DICOM"),
+   ("25b_dicom_visore", "DICOM: visualizzatore"),
    ("route_appearance_light", "Tema chiaro"),
  ]),
 ]
